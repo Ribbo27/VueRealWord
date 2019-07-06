@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Event List</h1>
+    <h1>Event Listing</h1>
+    <EventCard />
     <router-link :to="{ name: 'event-show', params: { id: '1' } }"
       >First Event #{{ id }}</router-link
     >
@@ -8,7 +9,11 @@
 </template>
 
 <script>
+import EventCard from '@/components/EventCard.vue'
 export default {
-  props: ['id']
+  props: ['id'],
+  components: {
+    EventCard
+  }
 }
 </script>
