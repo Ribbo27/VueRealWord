@@ -1,5 +1,5 @@
 <template>
-  <h1>Showing Event #{{ id }}</h1>
+  <h1>Evento #{{ id }}</h1>
 </template>
 
 <script>

@@ -1,10 +1,7 @@
 <template>
   <div>
-    <h1>Event Listing</h1>
+    <h1>Eventi</h1>
     <EventCard />
-    <router-link :to="{ name: 'event-show', params: { id: '1' } }"
-      >First Event #{{ id }}</router-link
-    >
   </div>
 </template>
 
