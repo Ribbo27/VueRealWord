@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Eventi</h1>
-    <BaseIcon />
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
