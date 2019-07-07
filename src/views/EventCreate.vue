@@ -1,3 +1,25 @@
 <template>
-  <h1>Event Create</h1>
+  <div>
+    <h1>Ciao {{ user.name }}, crea un evento</h1>
+    <p>Creato da: {{ user.name }}</p>
+    <p>Categorie disponibili: {{ catLength }}</p>
+    <ul>
+      <li v-for="cat in categories" :key="cat">{{ cat }}</li>
+    </ul>
+  </div>
 </template>
+
+<script>
+import { mapState } from 'vuex'
+
+export default {
+  computed: {
+    catLength(){
+      return this.$store.getters.catLength
+    },
+    ...mapState(['user', 'categories'])
+  }
+}
+</script>
+
+<style scoped></style>
