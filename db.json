@@ -1,89 +1,7 @@
 {
   "events": [
     {
-      "id": 1,
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Cat Cabaret",
-      "description": "Yay felines!",
-      "location": "Meow Town",
-      "date": "2019-01-03T21:54:00.000Z",
-      "time": "2:00",
-      "attendees": [
-        {
-          "id": "101",
-          "name": "Adam"
-        },
-        {
-          "id": "102",
-          "name": "John"
-        },
-        {
-          "id": "103",
-          "name": "Jake"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Kitty Cluster",
-      "description": "Yay cats!",
-      "location": "Catlandia",
-      "date": "2019-01-31T22:09:00.000Z",
-      "time": "7:00",
-      "attendees": [
-        {
-          "id": "102",
-          "name": "John"
-        },
-        {
-          "id": "103",
-          "name": "Jake"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Puppy Parade",
-      "description": "Yay pups!",
-      "location": "Puptown ",
-      "date": "2019-02-02T23:27:00.000Z",
-      "time": "1:00",
-      "attendees": [
-        {
-          "id": "101",
-          "name": "Adam"
-        },
-        {
-          "id": "103",
-          "name": "Jake"
-        }
-      ]
-    },
-    {
-      "id": 6714238,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "nature",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Ape nel parco",
-      "description": "Tornano gli aperitivi estivi al Parco Sempione organizzati dall’associazione Ape. Tutti i martedì dal 28 maggio al 16 luglio e poi il 27 agosto, il 3 e il 10 settembre lo spiazzo di fronte alla Palazzina Appiani si trasforma (meteo permettendo) in una festa sotto le stelle fin dall’aperitivo, con bar, birrifici artigianali, food truck, musica dal vivo e dj set. Ingresso libero.",
-      "location": "Parco Sempione",
-      "date": "2019-07-16T12:04:00.000Z",
-      "attendees": [],
-      "time": "18:00"
-    },
-    {
-      "id": 5156673,
+      "id": 6039001,
       "user": {
         "id": "abc123",
         "name": "Adam Jahr"
@@ -93,12 +11,500 @@
         "id": "abc123",
         "name": "Adam Jahr"
       },
-      "title": "Bicocca open day",
-      "description": "Panoramica dei corsi disponibili all'università degli studi di Milano-Bicocca",
-      "location": "Università Bicocca",
-      "date": "2019-09-07T12:24:00.000Z",
-      "attendees": [],
+      "title": "Evento 1",
+      "description": "Descrizione 1",
+      "location": "Location 1",
+      "date": "2019-07-18T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "01:00"
+    },
+    {
+      "id": 5039464,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 2",
+      "description": "Descrizione 2",
+      "location": "Location 2",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "02:00"
+    },
+    {
+      "id": 5030000,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 3",
+      "description": "Descrizione 3",
+      "location": "Location 3",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "03:00"
+    },
+    {
+      "id": 7000000,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 4",
+      "description": "Descrizione 4",
+      "location": "Location 4",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "04:00"
+    },
+    {
+      "id": 9475294,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 5",
+      "description": "Descrizione 5",
+      "location": "Location 5",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "05:00"
+    },
+    {
+      "id": 1234567,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 6",
+      "description": "Descrizione 6",
+      "location": "Location 6",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "06:00"
+    },
+    {
+      "id": 7654321,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 7",
+      "description": "Descrizione 7",
+      "location": "Location 7",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "07:00"
+    },
+    {
+      "id": 1092834,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 8",
+      "description": "Descrizione 8",
+      "location": "Location 8",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "08:00"
+    },
+    {
+      "id": 8974236,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 9",
+      "description": "Descrizione 9",
+      "location": "Location 9",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "09:00"
+    },
+    {
+      "id": 1847362,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 10",
+      "description": "Descrizione 10",
+      "location": "Location 10",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
       "time": "10:00"
+    },
+    {
+      "id": 5748932,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 11",
+      "description": "Descrizione 11",
+      "location": "Location 11",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "11:00"
+    },
+    {
+      "id": 9008890,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 12",
+      "description": "Descrizione 12",
+      "location": "Location 12",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "12:00"
+    },
+    {
+      "id": 4322343,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 13",
+      "description": "Descrizione 13",
+      "location": "Location 13",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "13:00"
+    },
+    {
+      "id": 5078409,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 14",
+      "description": "Descrizione 14",
+      "location": "Location 14",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "14:00"
+    },
+    {
+      "id": 1039432,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 15",
+      "description": "Descrizione 15",
+      "location": "Location 15",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "15:00"
+    },
+    {
+      "id": 7685986,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 16",
+      "description": "Descrizione 16",
+      "location": "Location 16",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "16:00"
+    },
+    {
+      "id": 2938501,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 17",
+      "description": "Descrizione 17",
+      "location": "Location 17",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "17:00"
+    },
+    {
+      "id": 9009900,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 18",
+      "description": "Descrizione 18",
+      "location": "Location 18",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "18:00"
+    },
+    {
+      "id": 8932464,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 19",
+      "description": "Descrizione 19",
+      "location": "Location 19",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": 7000464,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 20",
+      "description": "Descrizione 20",
+      "location": "Location 20",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": 6000464,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 21",
+      "description": "Descrizione 21",
+      "location": "Location 21",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "21:00"
+    },
+    {
+      "id": 5012994,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Evento 22",
+      "description": "Descrizione 22",
+      "location": "Location 22",
+      "date": "2019-07-19T12:41:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      ],
+      "time": "22:00"
     }
   ]
 }
