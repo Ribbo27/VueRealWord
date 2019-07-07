@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Ciao {{ user.name }}, crea un evento</h1>
+    <h1>Ciao {{ event.user.name }}, crea un evento</h1>
     <form @submit.prevent="createEvent">
       <label>Scegli una categoria</label>
       <select v-model="event.category">
@@ -77,7 +77,7 @@ export default {
         })
     },
     createFreshEventObject() {
-      const user = this.$store.state.user
+      const user = this.$store.state.user.user
       const id = Math.floor(Math.random() * 10000000)
       return {
         id: id,
