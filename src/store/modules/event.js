@@ -23,23 +23,44 @@ export const mutations = {
   }
 }
 export const actions = {
-  createEvent({ commit, rootState }, event) {
-    console.log("L'utente " + rootState.user.user.name + ' ha creato un evento')
-    return EventService.postEvent(event).then(() => {
-      commit('ADD_EVENT', event)
-    })
+  createEvent({ commit, dispatch, rootState }, event) {
+    return EventService.postEvent(event)
+      .then(() => {
+        commit('ADD_EVENT', event)
+        const notification = {
+          type: 'success',
+          message: 'Evento creato correttamente da: ' + rootState.user.user.name
+        }
+        dispatch('notification/add', notification, { root: true })
+      })
+      .catch(error => {
+        const notification = {
+          type: 'error',
+          message:
+            "Si è verificato un errore durante la creazione dell'evento: " +
+            error.message
+        }
+        dispatch('notification/add', notification, { root: true })
+        throw error
+      })
   },
-  fetchEvents({ commit }, { perPage, page }) {
+  fetchEvents({ commit, dispatch }, { perPage, page }) {
     EventService.getEvents(perPage, page)
       .then(response => {
         commit('SET_EVENTS_TOTAL', parseInt(response.headers['x-total-count']))
         commit('SET_EVENTS', response.data)
       })
       .catch(error => {
-        console.log('Error - fetchEvents - ' + error.response.data.message)
+        const notification = {
+          type: 'error',
+          message:
+            'Si è verificato un errore nel caricamento degli eventi: ' +
+            error.message
+        }
+        dispatch('notification/add', notification, { root: true })
       })
   },
-  fetchEvent({ commit, getters }, id) {
+  fetchEvent({ commit, dispatch, getters }, id) {
     var event = getters.getEventById(id)
     if (event) {
       commit('SET_EVENT', event)
@@ -49,7 +70,13 @@ export const actions = {
           commit('SET_EVENT', response.data)
         })
         .catch(error => {
-          console.log('Error - fetchEvent - ' + error.response.data.message)
+          const notification = {
+            type: 'error',
+            message:
+              "Si è verificato un errore nel caricamento dell'evento: " +
+              error.message
+          }
+          dispatch('notification/add', notification, { root: true })
         })
     }
   }

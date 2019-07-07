@@ -70,11 +70,7 @@ export default {
           })
           this.event = this.createFreshEventObject()
         })
-        .catch(() => {
-          console.log(
-            "Si è verificato un errore durante il salvataggio dell'evento"
-          )
-        })
+        .catch(() => {})
     },
     createFreshEventObject() {
       const user = this.$store.state.user.user
