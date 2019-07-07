@@ -505,6 +505,24 @@
         }
       ],
       "time": "22:00"
+    },
+    {
+      "id": 8391267,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Titolo 23",
+      "description": "Descrizione 23",
+      "location": "Location 23",
+      "date": "2019-07-23T15:45:00.000Z",
+      "attendees": [],
+      "time": "23:00"
     }
   ]
 }
