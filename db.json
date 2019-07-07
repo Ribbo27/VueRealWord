@@ -9,16 +9,20 @@
       "location": "Meow Town",
       "date": "2019-01-03T21:54:00.000Z",
       "time": "2:00",
-      "attendees": [{
-        "id": "101",
-        "name": "Adam"
-      },{
-        "id": "102",
-        "name": "John"
-      },{
-        "id": "103",
-        "name": "Jake"
-      }]
+      "attendees": [
+        {
+          "id": "101",
+          "name": "Adam"
+        },
+        {
+          "id": "102",
+          "name": "John"
+        },
+        {
+          "id": "103",
+          "name": "Jake"
+        }
+      ]
     },
     {
       "id": 2,
@@ -29,13 +33,16 @@
       "location": "Catlandia",
       "date": "2019-01-31T22:09:00.000Z",
       "time": "7:00",
-      "attendees": [{
-        "id": "102",
-        "name": "John"
-      },{
-        "id": "103",
-        "name": "Jake"
-      }]
+      "attendees": [
+        {
+          "id": "102",
+          "name": "John"
+        },
+        {
+          "id": "103",
+          "name": "Jake"
+        }
+      ]
     },
     {
       "id": 3,
@@ -46,14 +53,52 @@
       "location": "Puptown ",
       "date": "2019-02-02T23:27:00.000Z",
       "time": "1:00",
-      "attendees": [{
-        "id": "101",
-        "name": "Adam"
-      },{
-        "id": "103",
-        "name": "Jake"
-      }
+      "attendees": [
+        {
+          "id": "101",
+          "name": "Adam"
+        },
+        {
+          "id": "103",
+          "name": "Jake"
+        }
       ]
+    },
+    {
+      "id": 6714238,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Ape nel parco",
+      "description": "Tornano gli aperitivi estivi al Parco Sempione organizzati dall’associazione Ape. Tutti i martedì dal 28 maggio al 16 luglio e poi il 27 agosto, il 3 e il 10 settembre lo spiazzo di fronte alla Palazzina Appiani si trasforma (meteo permettendo) in una festa sotto le stelle fin dall’aperitivo, con bar, birrifici artigianali, food truck, musica dal vivo e dj set. Ingresso libero.",
+      "location": "Parco Sempione",
+      "date": "2019-07-16T12:04:00.000Z",
+      "attendees": [],
+      "time": "18:00"
+    },
+    {
+      "id": 5156673,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Bicocca open day",
+      "description": "Panoramica dei corsi disponibili all'università degli studi di Milano-Bicocca",
+      "location": "Università Bicocca",
+      "date": "2019-09-07T12:24:00.000Z",
+      "attendees": [],
+      "time": "10:00"
     }
   ]
 }
